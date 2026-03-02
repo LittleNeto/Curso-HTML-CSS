@@ -19,7 +19,6 @@
 
 * {
     margin: 0px;
-    padding: 0px;
 }
 
 body {
@@ -92,4 +91,12 @@ footer {
     font-family: var(--estilo1);
     text-align: center;
     margin: 10px;
+}
+
+img {
+    width: 80%;
+}
+
+iframe {
+    width: 80%;
 }
