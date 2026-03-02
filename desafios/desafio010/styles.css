@@ -1,7 +1,15 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: "Idroid";
+    src: url("fontes/idroid.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-image: linear-gradient(to bottom, rgb(87, 196, 87), rgba(87, 196, 87, 0.514));
+    text-align: justify;
 }
 
 main {
@@ -30,6 +38,23 @@ header > a {
 header > a:visited {
     color: white;
     text-decoration: none;
+}
+
+header > nav {
+    text-align: left;
+}
+
+main > h1 {
+    font-family: "Idroid", Arial, Helvetica, sans-serif;
+    color: rgb(7, 63, 7);
+    padding: 5px;
+}
+
+main > h2 {
+    font-family: "Idroid", Arial, Helvetica, sans-serif;
+    color: rgb(7, 63, 7);
+    background-image: linear-gradient(to right, rgba(25, 133, 25, 0.596), rgba(25, 133, 25, 0.137));
+    padding: 5px;
 }
 
 footer {
