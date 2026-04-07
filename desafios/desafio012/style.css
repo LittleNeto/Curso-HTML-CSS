@@ -2,14 +2,14 @@
 
 @font-face {
     font-family: "Passion One";
-    src: url("fontes/PassionOne-Regular.ttf") format("truetype");
+    src: url("fontes/PassionOne.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "Sriracha";
-    src: url("fontes/Sriracha-Regular.ttf") format("truetype");
+    src: url("fontes/Sriracha.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
@@ -81,6 +81,7 @@ section.texto > p {
     width: 35%;
     height: 100%;
     margin-top: 20px;
+    text-shadow: 1px 1px 0px var(--preto);
 }
 
 section {
@@ -91,6 +92,7 @@ section {
 
 .texto {
     padding: 20px;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
 }
 
 section > p {
@@ -104,7 +106,7 @@ p {
 
 #flor {
     background-color: var(--preto);
-    background: var(--preto) url('imagens/background001.jpg') center center no-repeat fixed;
+    background: var(--preto) url('imagens/background001.jpg') right center no-repeat fixed;
     background-size: cover;
     color: var(--branco);
     height: 100%;
